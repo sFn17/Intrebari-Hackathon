@@ -26,7 +26,7 @@ def on_submit():
 root = tk.Tk()
 root.title("Pufulete")
 
-excel_file_path = 'C:\\Users\\rares\\Desktop\\SpeechRecognition\\rasp.xlsx'
+excel_file_path = 'C:\\Users\\rares\\Desktop\\Hackathon text\\rasp.xlsx'
 
 wb = openpyxl.load_workbook(excel_file_path)
 sheet = wb.active
